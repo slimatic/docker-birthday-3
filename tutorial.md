@@ -228,6 +228,10 @@ Now, let us launch a container in **detached** mode as shown below:
 
 ```
 $ docker run --name static-site -e AUTHOR="Your Name" -d -P seqvence/static-site
+```
+This will generate a new `CONTAINER ID`:
+
+```
 e61d12292d69556eabe2a44c16cbd54486b2527e2ce4f95438e504afb7b02810
 ```
 
